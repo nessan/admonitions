@@ -1,0 +1,54 @@
+---
+title: "Admonition Types"
+---
+
+### Note
+
+A note:
+
+NOTE: A helpful note.
+
+and another note:
+
+NOTE:   Yet another note. \
+        This time with two lines. \
+        Make that three!
+
+## Warning
+
+A warning:
+
+WARNING: Please don't ignore this warning!
+It is important.
+
+## Tip
+
+A tip:
+
+TIP: Keep the parameter $n < 100$.
+
+## Caution
+
+A caution:
+
+CAUTION: This is going to be very slow as $n = 200$.
+
+### Important
+
+Super important:
+
+IMPORTANT: You've set $n = 666$ and the computer will now blow up!
+
+## Admonition vs. Callout Block
+
+Here is a tip admonition:
+
+TIP: To enable range-checking on indices, set the `DEBUG` flag at compile time. \
+     However, bear in mind that range-checking can slow your code down by orders of magnitude.
+
+Here is the equivalent tip [callout block](https://quarto.org/docs/authoring/callouts.html).
+
+::: {.callout-tip}
+To enable range-checking on indices, set the `DEBUG` flag at compile time. \
+However, bear in mind that range-checking can slow your code down by orders of magnitude.
+:::
