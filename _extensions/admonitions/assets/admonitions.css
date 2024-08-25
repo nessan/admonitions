@@ -24,9 +24,11 @@
     text-align: center;
     width: 80px;
 }
+
 .admonition > table td.icon img {
     max-width: none;
 }
+
 .admonition > table td.icon .title {
     font-weight: bold;
     font-family: "Open Sans", "DejaVu Sans", sans-serif;
