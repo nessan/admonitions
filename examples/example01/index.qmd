@@ -43,12 +43,12 @@ IMPORTANT: You've set $n = 666$ and the computer will now blow up!
 
 Here is a tip admonition:
 
-TIP: To enable range-checking on indices, set the `DEBUG` flag at compile time. \
-     However, bear in mind that range-checking can slow your code down by orders of magnitude.
+TIP: Set the DEBUG flag at compile time to enable range-checking on indices. \
+     However, remember that range-checking can slow your code down by orders of magnitude.
 
 Here is the equivalent tip [callout block](https://quarto.org/docs/authoring/callouts.html).
 
 ::: {.callout-tip}
-To enable range-checking on indices, set the `DEBUG` flag at compile time. \
-However, bear in mind that range-checking can slow your code down by orders of magnitude.
+Set the DEBUG flag at compile time to enable range-checking on indices. \
+However, remember that range-checking can slow your code down by orders of magnitude.
 :::
