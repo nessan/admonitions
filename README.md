@@ -2,10 +2,7 @@
 
 The `admonitions` filter adds simple AsciiDoc-style paragraph [admonitions][] to [Quarto][].
 
-TIP: Set the DEBUG flag at compile time to enable range-checking on indices. \
-       However, remember that range-checking can slow your code down by orders of magnitude.
-
-Using
+## Using
 
 Use the extension to draw attention to a paragraph. Start the first line of the paragraph with one of the following  five labels:
 
